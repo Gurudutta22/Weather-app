@@ -54,7 +54,9 @@ body{
 .search button img{
     width: 25px;
 }
-
+.weather{
+    display:none;
+}
 .weather img{
     width: 70px;
     margin: 30px auto;
@@ -90,4 +92,12 @@ body{
 .humidity{
     font-size: 28px;
     margin-top: -6px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size:10px;
+    margin-top: 10px;
+    display:none;
 }
